@@ -7,6 +7,6 @@ int main() {
     
     scanf("%s", str2);
     
-    printf("You entered:%s\n ", str1 "and");
+    printf("You entered:%s\n ", str1 "and:&s\n");
     return 0;
 }
