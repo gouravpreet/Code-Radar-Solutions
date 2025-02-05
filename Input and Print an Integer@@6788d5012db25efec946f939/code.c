@@ -7,7 +7,10 @@ int main() {
     printf("Enter an integer: ");
 
     // Read the integer input
-    scanf("%d", &num);
+    if (scanf("%d", &num) != 1) {  // Check if input is valid
+        printf("Invalid input! Please enter a valid integer.\n");
+        return 1;  // Exit with an error code
+    }
 
     // Print the integer as a character
     printf("Character representation: %c\n", num);
