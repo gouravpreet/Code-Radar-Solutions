@@ -9,7 +9,7 @@ int main() {
 
     product = num1 * num2;
   
-    printf("Product: %.2f\n", num1, num2, product);
+    printf("Product: %.2f\n", product);
 
     return 0;
 }
