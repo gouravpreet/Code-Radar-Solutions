@@ -5,8 +5,7 @@ int main() {
 
     scanf("%s", str1);
     
-    scanf("%s", str2);
     
-    printf("You entered:%s\n ", str1 "and:&s\n", str2);
+    printf("You entered:%s\n ", str1 );
     return 0;
 }
