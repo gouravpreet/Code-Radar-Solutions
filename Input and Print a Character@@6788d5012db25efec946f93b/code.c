@@ -1,12 +1,15 @@
 #include <stdio.h>
 
 int main() {
-    char x;  
+    char ch;  
+    float num;
 
+ 
+    scanf("%c", &ch);
 
-    scanf("%f", &x);
+    num = (float)ch;
 
-    printf("You entered: %.2f\n", x);
+    printf("ASCII value as float: %.2f\n", num);
 
     return 0;
 }
