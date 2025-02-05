@@ -8,7 +8,7 @@ int main() {
     scanf("%s", str2);
     
     printf("You entered:%s\n ", str1);
-    printf("and:%s\n", str2)
+    printf("and:%s\n", str2);
 
     return 0;
 }
