@@ -2,14 +2,12 @@
 
 int main() {
     char ch;  
-    float num;
 
- 
+    printf("Enter a single character: ");
+
     scanf("%c", &ch);
 
-    num = (float)ch;
-
-    printf("ASCII value as float: %.2f\n", num);
+    printf("You entered: %c\n", ch);
 
     return 0;
 }
